@@ -2,6 +2,20 @@ GUID Tool
 =========
 A small console application to generate and convert between various forms of GUIDs. Note: base64 representations are in little endian form.
 
+How to Install
+--------------
+You can install this script using pip:
+
+```bash
+$ sudo pip install guid-tool
+```
+
+If you do not have pip, try easy_install:
+
+```bash
+$ sudo easy_install guid-tool
+```
+
 Generating a GUID
 -----------------
 You can generate a new GUID in various forms by calling the script:
