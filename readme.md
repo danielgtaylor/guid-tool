@@ -6,28 +6,28 @@ Generating a GUID
 -----------------
 You can generate a new GUID in various forms by calling the script:
 
-    ```bash
-    $ guid-tool
-    hex: 8895cf4e-5685-4c82-8391-addfd518ecc3
-    int: 181552864324031739326019292661926128835
-    b64: Ts+ViIVWgkyDka3f1Rjsww==
-    ```
+```bash
+$ guid-tool
+hex: 8895cf4e-5685-4c82-8391-addfd518ecc3
+int: 181552864324031739326019292661926128835
+b64: Ts+ViIVWgkyDka3f1Rjsww==
+```
 
 Converting GUID Forms
 ---------------------
 You can convert between GUID forms by passing in a GUID in any of the three supported forms: hex, int, and base64:
 
-    ```bash
-    $ guid-tool FfdySTMLp0SC89TitNdqhQ==
-    hex: 4972f715-0b33-44a7-82f3-d4e2b4d76a85
-    int: 97630576956601658369574553421172140677
-    b64: FfdySTMLp0SC89TitNdqhQ==
+```bash
+$ guid-tool FfdySTMLp0SC89TitNdqhQ==
+hex: 4972f715-0b33-44a7-82f3-d4e2b4d76a85
+int: 97630576956601658369574553421172140677
+b64: FfdySTMLp0SC89TitNdqhQ==
 
-    $ guid-tool 63d7070b-5a7a-46e4-9f8e-72ac8391f19f
-    hex: 63d7070b-5a7a-46e4-9f8e-72ac8391f19f
-    int: 132710058283670147193134380447756841375
-    b64: CwfXY3pa5EafjnKsg5Hxnw==
-    ```
+$ guid-tool 63d7070b-5a7a-46e4-9f8e-72ac8391f19f
+hex: 63d7070b-5a7a-46e4-9f8e-72ac8391f19f
+int: 132710058283670147193134380447756841375
+b64: CwfXY3pa5EafjnKsg5Hxnw==
+```
 
 License
 -------
